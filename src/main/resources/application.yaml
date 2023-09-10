@@ -14,3 +14,8 @@ spring:
         trace: false
         web-allow-others: false
       path: /h2-console
+
+
+springdoc:
+  api-docs:
+    path: /api-docs
