@@ -98,6 +98,15 @@
 				<groupId>io.gatling</groupId>
 				<artifactId>gatling-maven-plugin</artifactId>
 				<version>4.5.0</version>
+				<configuration>
+					<includes>
+						<!-- Java Test -->
+						<include>com.pt.load.LoadTestPerson</include>
+
+						<!-- Scala Test -->
+						<!--<include>com.pt.load.PersonLoadTest</include>-->
+					</includes>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
